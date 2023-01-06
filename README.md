@@ -1,6 +1,6 @@
 # `next-p5`
 
-P5 sketches in Next.js using new app directory structure.
+p5.js sketches using Next.js 13 app directory
 
 This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
