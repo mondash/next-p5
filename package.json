@@ -4,7 +4,7 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "format": "prettier --write .",
+    "format": "prettier --write . --ignore-path .gitignore",
     "start": "next start",
     "lint": "next lint"
   },
