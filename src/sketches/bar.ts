@@ -13,16 +13,16 @@ export function draw() {
   colorMode(HSB);
   fill(hue, 100, 100);
 
-  circle(300, 300, 50 + random(-5, 5));
+  circle(200, 200, 50 + random(-5, 5));
 
   push();
-  translate(300, 400);
+  translate(300, 200);
   rotate(angle);
   rect(0, 0, 50, 50);
   pop();
 
   angle += 0.05;
   angle %= 2 * PI;
-  hue += 2;
+  hue += 4;
   hue %= 360;
 }

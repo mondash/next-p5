@@ -1,6 +1,4 @@
 import Image from "next/image";
-
-import FooSketch from "@/components/foo-sketch";
 import styles from "./dashboard.module.css";
 
 export default function Home() {
@@ -19,7 +17,8 @@ export default function Home() {
           <Image src="/thirteen.svg" alt="13" width={40} height={31} priority />
         </div>
       </div>
-      <FooSketch />
+      <iframe src="/sketch/foo" width={600} height={600} />
+      <iframe src="/sketch/bar" width={600} height={600} />
     </main>
   );
 }
