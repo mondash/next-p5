@@ -1,7 +1,7 @@
 "use client";
 
-import { useSketch } from "@/lib/p5";
 import React from "react";
+import { useSketch } from "@/lib/p5";
 
 export type Props = {
   params: { id: string };
